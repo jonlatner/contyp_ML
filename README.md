@@ -8,11 +8,9 @@ Results suggest that ML techniques are not so much better than logistic regressi
 
 Below is a tweet threat I wrote:
 
-I would say a hidden secret within research on temporary employment is that predictive power of basic models are quite low.  Say Psuedo R2 < 0.10.  Further, most, if not all the predictive power comes in the ability to predict who does NOT have a temporary contract, not who does.  Can machine learning help?
+I would say a hidden secret within research on temporary employment is that predictive power of basic models are quite low.  Say Psuedo R2 < 0.10.  Further, most, if not all the predictive power comes in the ability to predict who does NOT have a temporary contract, not who does.  
 
-I am sharing a public repository for a new project to see if we can better predict temporary employment.  Unfortunately, data are private, but code is public.  I use data from the European Labour Force Survey (EU-LFS), between 1998 and 2019.  
-
-The sample is prime-aged (25-54) individuals who are employed, with a contract type.  Dependent variable is temporary employment (reference: permanent employment).  Independent variables are education, age, and gender, all of which are categorical.  One model is estimated separately for each country, year combination.  
+Can machine learning help?  I am sharing a public repository for a new project to see if we can better predict temporary employment.  Unfortunately, data are private, but code is public.  I use data from the European Labour Force Survey (EU-LFS), between 1998 and 2019.  
 
 To be honest, the goal was to learn a little python and a little about machine learning.  Plus, I wanted to do it within an open science framework (i.e. GitHub).  That said, I do think there is some contributions to the broader research community as well.
 
